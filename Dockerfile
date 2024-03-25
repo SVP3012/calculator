@@ -9,4 +9,4 @@ RUN apt-get update && \
 ENV JAVA_HOME /usr/lib/jvm/java-1.11.0-openjdk-amd64
 
 COPY target/ScientificCalculator-1.0-SNAPSHOT.jar /app/ScientificCalculator-1.0-SNAPSHOT.jar 
-# CMD sed -i 's/\r$//' /app/calculator.sh5
+# CMD sed -i 's/\r$//' /app/calculator.sh
