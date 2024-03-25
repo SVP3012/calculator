@@ -4,7 +4,7 @@ FROM ubuntu:latest
 RUN apt-get update && \
     apt-get install -y default-jre && \
     apt-get clean; 
-
+ 
 # Set Java Home environment variable (optional)
 ENV JAVA_HOME /usr/lib/jvm/java-1.11.0-openjdk-amd64
 
