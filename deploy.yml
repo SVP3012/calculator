@@ -8,7 +8,7 @@
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "svp3012/sc"
+        name: "svp3012/sc1"
         source: pull
       register: docker_pull_result
 
@@ -21,4 +21,4 @@
         name: docker
         state: started
     - name: Running container 
-      shell: docker run -it -d --name sc svp3012/sc
+      shell: docker run -it -d --name sc1 svp3012/sc1
